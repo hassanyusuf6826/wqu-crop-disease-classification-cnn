@@ -30,11 +30,13 @@ By the end of this project, I successfully completed:
 
 ## 🗂️ Dataset Description
 
-The dataset contains labeled crop leaf images from Uganda representing **five disease categories**. It includes:
+The dataset contains labeled crop leaf images from Uganda representing **five categories**. It includes:
 
-- High intra-class variability  
-- Different lighting conditions  
-- Natural noise and background clutter  
+- healthy
+- green mottle virus (CGM)
+- bacterial blight (CBB)
+- brown streak disease (CBSD)
+- mosaic disease (CMD)  
 
 > *Note: Due to licensing restrictions, the dataset is not stored in this repository. Instructions for downloading/loading the dataset are included in the notebooks.*
 
