@@ -90,5 +90,9 @@ The model was evaluated using:
 
 ---
 
-## 📁 Repository Structure
+## 👤 Author
+
+- Yusuf Hassan
+- Machine Learning Intern | Data Scientist
+- Aspiring AI Engineer & Researcher
 
