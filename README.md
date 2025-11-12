@@ -45,12 +45,12 @@ The dataset contains labeled crop leaf images from Uganda representing **five ca
 ## 🧰 Technologies & Libraries Used
 
 - **Python 3.x**
-- **TensorFlow / Keras**
+- **Pytorch**
 - **NumPy**
 - **Pandas**
 - **Matplotlib / Seaborn**
 - **scikit-learn**
-- **Google Colab / Jupyter Notebook**
+- **Jupyter Notebook**
 - **CNNs + Transfer Learning Models**
 
 ---
