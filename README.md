@@ -1,67 +1,94 @@
-# 📌 Project: Crop Disease Classification Using CNN & Transfer Learning
+# 🌾 Crop Disease Classification Using CNN & Transfer Learning  
+### **WorldQuant University – Deep Learning for Computer Vision Lab (Project 2)**
 
-WorldQuant University – Deep Learning for Computer Vision Lab (Project 2)
+This repository contains my second project for the **Deep Learning for Computer Vision Lab** at **WorldQuant University**. The project focuses on building and optimizing convolutional neural networks (CNNs) to classify crop disease images collected from agricultural fields in Uganda. It demonstrates a full computer vision workflow including dataset analysis, baseline modeling, transfer learning, performance evaluation, and training optimization using callbacks.
 
-This repository contains my second project for the Deep Learning for Computer Vision Lab at WorldQuant University, where I developed and optimized a convolutional neural network (CNN) for classifying crop disease images collected from agricultural fields in Uganda. The goal of this project is to leverage deep learning techniques to support early disease detection and improve agricultural decision-making.
+---
 
-## 🔍 Project Overview
+## ⭐ Project Summary
 
-The dataset consists of crop leaf images categorized into five disease classes. This project walks through the complete workflow of a modern image classification pipeline—from data exploration and modeling to performance optimization and evaluation.
+This project aims to classify crop leaf images into **five disease classes** using deep learning. It combines custom CNN architectures and state-of-the-art transfer learning models to achieve high accuracy and robust generalization. Techniques such as data augmentation, cross-validation, and callbacks are used to improve training stability and performance.
 
-## 🧠 Key Learning Objectives
+---
 
-By completing this project, I gained hands-on experience in:
+## 🎯 Project Objectives
 
-Exploring a crop disease image dataset
+By the end of this project, I successfully completed:
 
-Building and training a CNN for multi-class image classification
+- 📊 Exploring and analyzing a real-world crop disease image dataset  
+- 🧠 Building and training a baseline CNN from scratch  
+- 🔄 Applying **Transfer Learning** (EfficientNet, MobileNetV2, or ResNet50)  
+- 🛑 Identifying and mitigating **overfitting** using dropout and regularization  
+- ♻️ Applying **k-fold cross-validation** for robust performance evaluation  
+- ⚙️ Using key Pytorch Callbacks:
+  - **EarlyStopping**  
+  - **ModelCheckpoint**  
+  - **ReduceLROnPlateau**  
+  - **LearningRateScheduler**
 
-Improving model performance using Transfer Learning with pre-trained architectures
+---
 
-Identifying and mitigating overfitting
+## 🗂️ Dataset Description
 
-Applying k-fold cross-validation to evaluate model stability
+The dataset contains labeled crop leaf images from Uganda representing **five disease categories**. It includes:
 
-Using essential training Callbacks, including:
+- High intra-class variability  
+- Different lighting conditions  
+- Natural noise and background clutter  
 
-Learning Rate Scheduling
+> *Note: Due to licensing restrictions, the dataset is not stored in this repository. Instructions for downloading/loading the dataset are included in the notebooks.*
 
-Model Checkpointing
+---
 
-Early Stopping
+## 🧰 Technologies & Libraries Used
 
-⚙️ Techniques & Tools Used
+- **Python 3.x**
+- **TensorFlow / Keras**
+- **NumPy**
+- **Pandas**
+- **Matplotlib / Seaborn**
+- **scikit-learn**
+- **Google Colab / Jupyter Notebook**
+- **CNNs + Transfer Learning Models**
 
-Python, Pytorch
+---
 
-Convolutional Neural Networks (CNN)
+## 🧠 Modeling Approach
 
-Transfer Learning (e.g., EfficientNet, MobileNet, ResNet—depending on your choice)
+### **1. Baseline CNN**
+- Custom convolutional architecture  
+- Trained from scratch  
+- Served as a performance benchmark  
 
-Callbacks for training optimization
+### **2. Transfer Learning**
+- Fine-tuned pre-trained models (e.g., EfficientNet, MobileNetV2)  
+- Added custom classification head  
+- Achieved significant accuracy improvement  
 
-Data augmentation
+### **3. Callbacks for Training Optimization**
+- **EarlyStopping** to prevent overfitting  
+- **ModelCheckpoint** to save the best-performing model  
+- **ReduceLROnPlateau** for adaptive learning rate control  
+- **LearningRateScheduler** for step-based schedule  
 
-k-fold cross-validation
+### **4. K-Fold Cross-Validation**
+- Evaluated model performance across multiple folds  
+- Ensured stability and reliable metrics  
 
-GPU-accelerated training (if available)
+---
 
-📁 Repository Structure
-├── data/               # Dataset (or links to dataset)
-├── notebooks/          # Jupyter/Colab notebooks for experiments
-├── src/                # Source code: models, utils, training scripts
-├── models/             # Saved model weights and checkpoints
-├── results/            # Performance metrics, plots, confusion matrix
-├── README.md           # Project documentation (this file)
+## 📈 Evaluation Metrics
 
-👥 Instructors
+The model was evaluated using:
 
-Ivan Blanco
+- Accuracy  
+- Precision, Recall, F1-Score  
+- Confusion Matrix  
+- Training/Validation learning curves  
+- Cross-validation fold accuracy  
+- Test accuracy on unseen images  
 
-Ricky Macharm
+---
 
-Anika Nacey
+## 📁 Repository Structure
 
-🎓 Program
-
-WorldQuant University – Applied Data Science Lab
